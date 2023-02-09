@@ -6,7 +6,16 @@
     <description>Recent content in note on Ying&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 08 Feb 2023 20:07:47 +0800</lastBuildDate><atom:link href="https://yuying1724.github.io/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Feb 2023 16:04:08 +0800</lastBuildDate><atom:link href="https://yuying1724.github.io/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【筆記】Java Field 相關</title>
+      <link>https://yuying1724.github.io/blog/2023/note-java-field-related/</link>
+      <pubDate>Thu, 09 Feb 2023 16:04:08 +0800</pubDate>
+      
+      <guid>https://yuying1724.github.io/blog/2023/note-java-field-related/</guid>
+      <description>取得object欄位名稱 /** * 取得object欄位名稱 * @param clz * @return */ public List&amp;lt;String&amp;gt; getFieldNameList(Object clz) { List&amp;lt;String&amp;gt; result = Lists.</description>
+    </item>
+    
     <item>
       <title>【筆記】Hugo 開啟新分頁的連結設定</title>
       <link>https://yuying1724.github.io/blog/2023/note-hugo-external-link/</link>
