@@ -8,11 +8,22 @@
     <language>zh-tw</language>
     <lastBuildDate>Sun, 12 Feb 2023 14:30:00 +0800</lastBuildDate><atom:link href="https://yuying1724.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>【筆記】謝哲青的記憶宮殿_專注力</title>
-      <link>https://yuying1724.github.io/blog/2023/review-memory-palace-6-2/</link>
+      <title>【筆記】謝哲青的記憶宮殿_哲青閱讀法</title>
+      <link>https://yuying1724.github.io/blog/2023/02/review-memory-palace-2-1/</link>
       <pubDate>Sun, 12 Feb 2023 14:30:00 +0800</pubDate>
       
-      <guid>https://yuying1724.github.io/blog/2023/review-memory-palace-6-2/</guid>
+      <guid>https://yuying1724.github.io/blog/2023/02/review-memory-palace-2-1/</guid>
+      <description>我們每一個人，若不是經驗、知識、讀過的書本的總和，還會是誰? 每一個生命都是一本百科全書，一間圖書館。
+伊塔羅 卡爾維諾 Italo Calvino
+終其一生我們所閱讀過的所有的東西， 都是我們能夠領略或預測所接觸世界的基礎。 閱讀是我們理解世界一個重要的捷徑。</description>
+    </item>
+    
+    <item>
+      <title>【筆記】謝哲青的記憶宮殿_專注力</title>
+      <link>https://yuying1724.github.io/blog/2023/02/review-memory-palace-6-2/</link>
+      <pubDate>Sun, 12 Feb 2023 14:30:00 +0800</pubDate>
+      
+      <guid>https://yuying1724.github.io/blog/2023/02/review-memory-palace-6-2/</guid>
       <description>專注力，心理學家認為人腦的專注力並非像是對空間的感知力一樣是與生俱來的， 而是必須要透過有意識的學習，才能開發完成。
 如果一般人沒有經過特意的練習，那自我調節的能力還是會處於原始的狀態， 思想、行動與習慣很容易大幅度的擺盪，讓我們的新制運作變得衝動、焦躁跟混亂。
 專注力是可以培養的！讓我們可以有條有理的將事情徹底的執行。
@@ -21,10 +32,10 @@
     
     <item>
       <title>【筆記】謝哲青的記憶宮殿_記憶的斷捨離</title>
-      <link>https://yuying1724.github.io/blog/2023/review-memory-palace-6-1/</link>
+      <link>https://yuying1724.github.io/blog/2023/02/review-memory-palace-6-1/</link>
       <pubDate>Sun, 12 Feb 2023 14:30:00 +0800</pubDate>
       
-      <guid>https://yuying1724.github.io/blog/2023/review-memory-palace-6-1/</guid>
+      <guid>https://yuying1724.github.io/blog/2023/02/review-memory-palace-6-1/</guid>
       <description>斷-斷絕不需要的 捨-捨去多餘的 離-脫離執著 如果要用一個字表達『斷捨離』的本質，那就『出』。 不是讓人苦澀的『丟棄』，也不是故作灑脫的『放手』， 只是簡單的，中性的，自然而然的『清出』
 日本斷捨離女王 山下英子小姐
 記憶的斷捨離 = 有意識地忘記 STEP.</description>
@@ -32,48 +43,48 @@
     
     <item>
       <title>【心得】謝哲青的記憶宮殿</title>
-      <link>https://yuying1724.github.io/blog/2023/review-memory-palace/</link>
+      <link>https://yuying1724.github.io/blog/2023/02/review-memory-palace/</link>
       <pubDate>Fri, 10 Feb 2023 09:32:00 +0800</pubDate>
       
-      <guid>https://yuying1724.github.io/blog/2023/review-memory-palace/</guid>
+      <guid>https://yuying1724.github.io/blog/2023/02/review-memory-palace/</guid>
       <description>原由 因為我有看Youtube的習慣，而「下班經濟學」又是我會看的頻道，因此知道謝哲青這位主持人。 然後某次老公看到全民星攻略他答題的狀況，邀請我一起看節目。 驚覺這個人無敵強，回答問題不只講出了答案，還講了很多原由，讓我非常的驚艷。 默默地注意到這個主持人，才發現他也是個作家。可能搜尋過這個人，廣告開始跳出了 謝哲青的記憶宮殿 這堂課。
 雖然看到課程覺得不錯，我有興趣買！ 不過&amp;hellip;老實說對於我來說價格有點太貴了&amp;hellip; 起初也只是想說有點貴&amp;hellip;我好像沒有一定要買這個影音課程。 因為我通常會投資的影音課程都是專業技能培訓、語言學習或者投資理財影音課程， 讓我能實際運用在工作或者生活上面的課程。</description>
     </item>
     
     <item>
       <title>【筆記】Java Field 相關</title>
-      <link>https://yuying1724.github.io/blog/2023/note-java-field-related/</link>
+      <link>https://yuying1724.github.io/blog/2023/02/note-java-field-related/</link>
       <pubDate>Thu, 09 Feb 2023 16:04:08 +0800</pubDate>
       
-      <guid>https://yuying1724.github.io/blog/2023/note-java-field-related/</guid>
+      <guid>https://yuying1724.github.io/blog/2023/02/note-java-field-related/</guid>
       <description>取得object欄位名稱 /** * 取得object欄位名稱 * @param clz * @return */ public List&amp;lt;String&amp;gt; getFieldNameList(Object clz) { List&amp;lt;String&amp;gt; result = Lists.</description>
     </item>
     
     <item>
       <title>【筆記】Hugo 開啟新分頁的連結設定</title>
-      <link>https://yuying1724.github.io/blog/2023/note-hugo-external-link/</link>
+      <link>https://yuying1724.github.io/blog/2023/02/note-hugo-external-link/</link>
       <pubDate>Wed, 08 Feb 2023 20:07:47 +0800</pubDate>
       
-      <guid>https://yuying1724.github.io/blog/2023/note-hugo-external-link/</guid>
+      <guid>https://yuying1724.github.io/blog/2023/02/note-hugo-external-link/</guid>
       <description>設定開啟新分頁的連結 建立Short code themes/liva-hugo/layouts/shortcodes/newtabref.html &amp;lt;a href=&amp;#34;{{ .Get &amp;#34;href&amp;#34; }}&amp;#34; rel=&amp;#34;noopener&amp;#34; target=&amp;#34;_blank&amp;#34;&amp;gt;{{ .</description>
     </item>
     
     <item>
       <title>【心得】Github 免費架站術！輕鬆打造個人品牌</title>
-      <link>https://yuying1724.github.io/blog/2023/review-github-hugo-blog/</link>
+      <link>https://yuying1724.github.io/blog/2023/02/review-github-hugo-blog/</link>
       <pubDate>Mon, 06 Feb 2023 10:07:47 +0800</pubDate>
       
-      <guid>https://yuying1724.github.io/blog/2023/review-github-hugo-blog/</guid>
+      <guid>https://yuying1724.github.io/blog/2023/02/review-github-hugo-blog/</guid>
       <description>契機 曾經喜歡透過部落格來紀錄和分享生活中大小事， 但經由 無名小站、痞客邦、Google Blogger 來紀錄生活與學習筆記， 但因為時代的演變，很多的某些平台不見了！
 然而剛好因為想要加強自己的能力，購買了Java 工程師必備！Spring Boot 零基礎入門 的課程。 然後看到老師也有開 Github 免費架站術！輕鬆打造個人品牌 課程。</description>
     </item>
     
     <item>
       <title>【心得】人生實用商學院 誰偷了你的錢</title>
-      <link>https://yuying1724.github.io/blog/2023/review-book-%E4%BA%BA%E7%94%9F%E5%AF%A6%E7%94%A8%E5%95%86%E5%AD%B8%E9%99%A2-%E8%AA%B0%E5%81%B7%E4%BA%86%E4%BD%A0%E7%9A%84%E9%8C%A2/</link>
+      <link>https://yuying1724.github.io/blog/2023/02/review-book-%E4%BA%BA%E7%94%9F%E5%AF%A6%E7%94%A8%E5%95%86%E5%AD%B8%E9%99%A2-%E8%AA%B0%E5%81%B7%E4%BA%86%E4%BD%A0%E7%9A%84%E9%8C%A2/</link>
       <pubDate>Sun, 05 Feb 2023 10:07:47 +0800</pubDate>
       
-      <guid>https://yuying1724.github.io/blog/2023/review-book-%E4%BA%BA%E7%94%9F%E5%AF%A6%E7%94%A8%E5%95%86%E5%AD%B8%E9%99%A2-%E8%AA%B0%E5%81%B7%E4%BA%86%E4%BD%A0%E7%9A%84%E9%8C%A2/</guid>
+      <guid>https://yuying1724.github.io/blog/2023/02/review-book-%E4%BA%BA%E7%94%9F%E5%AF%A6%E7%94%A8%E5%95%86%E5%AD%B8%E9%99%A2-%E8%AA%B0%E5%81%B7%E4%BA%86%E4%BD%A0%E7%9A%84%E9%8C%A2/</guid>
       <description></description>
     </item>
     
