@@ -6,7 +6,16 @@
     <description>Recent content in Java on Ying&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 09 Feb 2023 16:04:08 +0800</lastBuildDate><atom:link href="https://yuying1724.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Feb 2023 20:00:00 +0800</lastBuildDate><atom:link href="https://yuying1724.github.io/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>【筆記】java.lang.unsupportedoperationexception: null 錯誤</title>
+      <link>https://yuying1724.github.io/blog/2023/02/note-java-funsupportedoperationexception/</link>
+      <pubDate>Thu, 23 Feb 2023 20:00:00 +0800</pubDate>
+      
+      <guid>https://yuying1724.github.io/blog/2023/02/note-java-funsupportedoperationexception/</guid>
+      <description>當使用 Arrays.asList(T... a) 產生 List物件， 而當你在呼叫List的add()或 remove()新增或刪除元素時，會發生java.</description>
+    </item>
+    
     <item>
       <title>【筆記】Java Field 相關</title>
       <link>https://yuying1724.github.io/blog/2023/02/note-java-field-related/</link>

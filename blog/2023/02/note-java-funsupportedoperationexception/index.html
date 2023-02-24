@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html lang="zh-tw"><head>
+  <meta charset="utf-8">
+  <title>Ying&#39;s Blog</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <meta name="description" content="java.lang.unsupportedoperationexception錯誤訊息...">
+  <meta name="author" content="ying">
+    
+  
+  <meta name="theme-name" content="liva-hugo" />
+  
+  <meta name="generator" content="Hugo 0.110.0">
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://yuying1724.github.io/plugins/bootstrap/bootstrap.min.css ">
+  
+  <link rel="stylesheet" href="https://yuying1724.github.io/plugins/slick/slick.css ">
+  
+  <link rel="stylesheet" href="https://yuying1724.github.io/plugins/themify-icons/themify-icons.css ">
+  
+  <link rel="stylesheet" href="https://yuying1724.github.io/plugins/venobox/venobox.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="https://yuying1724.github.io/scss/style.min.css" media="screen">
+
+  <!--Favicon-->
+  <link rel="shortcut icon" href="https://yuying1724.github.io/images/favicon.png " type="image/x-icon">
+  <link rel="icon" href="https://yuying1724.github.io/images/favicon.png " type="image/x-icon">
+
+  <!-- google analitycs -->
+  <script>
+    (function (i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function () {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+    ga('create', 'UA-256702502-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-624938054"></script>
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5478986909547866"
+    crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- preloader start -->
+<div class="preloader">
+  
+</div>
+<!-- preloader end -->
+<!-- navigation -->
+<header class="navigation">
+  <div class="container">
+    
+    <nav class="navbar navbar-expand-lg navbar-white bg-transparent border-bottom pl-0">
+      <a class="navbar-brand mobile-view" href="https://yuying1724.github.io"><img class="img-fluid-ying-sm"
+          src="https://yuying1724.github.io/images/logo.png" alt="Ying&#39;s Blog"></a>  
+      <button class="navbar-toggler border-0" type="button" data-toggle="collapse" data-target="#navigation">
+        <i class="ti-menu"></i>
+      </button>
+
+
+      <div class="collapse navbar-collapse navbar-collapse text-center" id="navigation">
+        
+          <a class="navbar-brand mr-auto desktop-view" href="https://yuying1724.github.io"><img class="img-fluid-ying"
+              src="https://yuying1724.github.io/images/logo.png" alt="Ying&#39;s Blog"></a> 
+        
+        
+        <ul class="navbar-nav">
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://yuying1724.github.io/blog/">Blog</a>
+          </li>
+          
+          
+          
+          <li class="nav-item">
+            <a class="nav-link" href="https://yuying1724.github.io/about/">About Me</a>
+          </li>
+          
+          
+        </ul>
+        
+        
+        <!-- search -->
+        <div class="search pl-lg-4">
+          <button id="searchOpen" class="search-btn"><i class="ti-search"></i></button>
+          <div class="search-wrapper">
+            <form action="https://yuying1724.github.io/search" class="h-100">
+              <input class="search-box px-4" id="search-query" name="s" type="search" placeholder="Type & Hit Enter...">
+            </form>
+            <button id="searchClose" class="search-close"><i class="ti-close text-dark"></i></button>
+          </div>
+        </div>
+        
+        
+        
+      </div>
+    </nav>
+  </div>
+</header>
+<!-- /navigation -->
+
+<section class="section-sm">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        
+        <a href="/categories/%e7%ad%86%e8%a8%98-java"
+          class="text-primary">筆記 java</a>
+        
+        <h2>【筆記】java.lang.unsupportedoperationexception: null 錯誤</h2>
+        <div class="mb-3 post-meta">
+          <span>By ying</span>
+          
+          <span class="border-bottom border-primary px-2 mx-1"></span>
+          <span>23 February 2023</span>
+          
+          <img src="https://visitor-badge.glitch.me/badge?page_id=https%3a%2f%2fyuying1724.github.io%2fblog%2f2023%2f02%2fnote-java-funsupportedoperationexception%2f" alt="Views" />
+          
+        </div>
+        
+        <div class="content mb-5">
+          <p>當使用 <code>Arrays.asList(T... a)</code> 產生 
+
+<span style="color: blue">
+    List
+</span> 物件，
+而當你在呼叫
+
+<span style="color: blue">
+    List
+</span>的
+
+<span style="color: red">
+    add()
+</span>或
+
+
+<span style="color: red">
+    remove()
+</span>新增或刪除元素時，會發生<code>java.lang.UnsupportedOperationException</code>錯誤。</p>
+<h5 id="以下範例會拋出-unsupportedoperationexception-錯誤">以下範例會拋出 <code>UnsupportedOperationException</code> 錯誤</h5>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>List<span style="color:#666">&lt;</span>String<span style="color:#666">&gt;</span> list <span style="color:#666">=</span> Arrays<span style="color:#666">.</span><span style="color:#b44">asList</span><span style="color:#666">(</span><span style="color:#b44">&#34;01&#34;</span><span style="color:#666">,</span> <span style="color:#b44">&#34;02&#34;</span><span style="color:#666">,</span> <span style="color:#b44">&#34;03&#34;</span><span style="color:#666">,</span> <span style="color:#b44">&#34;04&#34;</span><span style="color:#666">);</span>
+</span></span><span style="display:flex;"><span>list<span style="color:#666">.</span><span style="color:#b44">add</span><span style="color:#666">(</span><span style="color:#b44">&#34;05&#34;</span><span style="color:#666">);</span> <span style="color:#080;font-style:italic">// java.lang.UnsupportedOperationException 錯誤
+</span></span></span></code></pre></div><p>原因是<code>Arrays.asList(T... a)</code>回傳的並不是 
+
+<span style="color: blue">
+    java.util.ArrayList
+</span>，而是 <code>Arrays$ArrayList</code>，也就是 <code>java.util.Arrays</code> 的一個內部類別，
+而這個<code>Arrays$ArrayList</code>並未實作上述的}
+
+<span style="color: red">
+    add()
+</span>，
+因此實際呼叫的是其繼承的父類別
+
+<span style="color: blue">
+    AbstractList
+</span>，
+所以真正呼叫的是<code>AbstractList.add(E e)</code>，最終呼叫的是 <code>AbstractList.add(int index, E element)</code>，原始碼如下。</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#a2f;font-weight:bold">public</span> <span style="color:#a2f;font-weight:bold">abstract</span> <span style="color:#a2f;font-weight:bold">class</span> <span style="color:#00f">AbstractList</span><span style="color:#666">&lt;</span>E<span style="color:#666">&gt;</span> <span style="color:#a2f;font-weight:bold">extends</span> AbstractCollection<span style="color:#666">&lt;</span>E<span style="color:#666">&gt;</span> <span style="color:#a2f;font-weight:bold">implements</span> List<span style="color:#666">&lt;</span>E<span style="color:#666">&gt;</span> <span style="color:#666">{</span>
+</span></span><span style="display:flex;"><span> <span style="color:#666">...</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#a2f;font-weight:bold">public</span> <span style="color:#0b0;font-weight:bold">void</span> <span style="color:#00a000">add</span><span style="color:#666">(</span><span style="color:#0b0;font-weight:bold">int</span> index<span style="color:#666">,</span> E element<span style="color:#666">)</span> <span style="color:#666">{</span>
+</span></span><span style="display:flex;"><span>        <span style="color:#a2f;font-weight:bold">throw</span> <span style="color:#a2f;font-weight:bold">new</span> UnsupportedOperationException<span style="color:#666">();</span>
+</span></span><span style="display:flex;"><span>    <span style="color:#666">}</span>
+</span></span><span style="display:flex;"><span> <span style="color:#666">...</span>
+</span></span><span style="display:flex;"><span><span style="color:#666">}</span>
+</span></span></code></pre></div><h5 id="解決方法">解決方法</h5>
+<div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span>List<span style="color:#666">&lt;</span>String<span style="color:#666">&gt;</span> list <span style="color:#666">=</span> <span style="color:#a2f;font-weight:bold">new</span> ArrayList<span style="color:#666">&lt;&gt;(</span>Arrays<span style="color:#666">.</span><span style="color:#b44">asList</span><span style="color:#666">(</span><span style="color:#b44">&#34;01&#34;</span><span style="color:#666">,</span> <span style="color:#b44">&#34;02&#34;</span><span style="color:#666">,</span> <span style="color:#b44">&#34;03&#34;</span><span style="color:#666">,</span> <span style="color:#b44">&#34;04&#34;</span><span style="color:#666">));</span>
+</span></span><span style="display:flex;"><span>list<span style="color:#666">.</span><span style="color:#b44">add</span><span style="color:#666">(</span><span style="color:#b44">&#34;05&#34;</span><span style="color:#666">);</span>
+</span></span></code></pre></div><h5 id="reference">Reference</h5>
+<a href='https://matthung0807.blogspot.com/2019/05/java-arraysaslistlistaddremoveunsupport.html' rel="noopener" target="_blank">Java 為什麼使用Arrays.asList()產生的List物件呼叫add()或remove()時出現UnsupportedOperationException錯誤？</a>
+
+        </div>
+        
+        
+        <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "yuying1724" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+<script>
+  var indexURL = "https://yuying1724.github.io/index.json"
+</script>
+
+<!-- JS Plugins -->
+
+<script src="https://yuying1724.github.io/plugins/jQuery/jquery.min.js"></script>
+
+<script src="https://yuying1724.github.io/plugins/bootstrap/bootstrap.min.js"></script>
+
+<script src="https://yuying1724.github.io/plugins/slick/slick.min.js"></script>
+
+<script src="https://yuying1724.github.io/plugins/venobox/venobox.min.js"></script>
+
+<script src="https://yuying1724.github.io/plugins/search/fuse.min.js"></script>
+
+<script src="https://yuying1724.github.io/plugins/search/mark.js"></script>
+
+<script src="https://yuying1724.github.io/plugins/search/search.js"></script>
+
+<!-- Main Script -->
+
+<script src="https://yuying1724.github.io/js/script.min.js"></script>
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-cookie/2.2.1/js.cookie.min.js"></script>
+<div id="js-cookie-box" class="cookie-box cookie-box-hide">
+	This site uses cookies. By continuing to use this website, you agree to their use. <span id="js-cookie-button" class="btn btn-sm btn-primary ml-2">I Accept</span>
+</div>
+<script>
+	(function ($) {
+		const cookieBox = document.getElementById('js-cookie-box');
+		const cookieButton = document.getElementById('js-cookie-button');
+		if (!Cookies.get('cookie-box')) {
+			cookieBox.classList.remove('cookie-box-hide');
+			cookieButton.onclick = function () {
+				Cookies.set('cookie-box', true, {
+					expires:  2 
+				});
+				cookieBox.classList.add('cookie-box-hide');
+			};
+		}
+	})(jQuery);
+</script>
+
+
+<style>
+.cookie-box {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  text-align: center;
+  z-index: 9999;
+  padding: 1rem 2rem;
+  background: rgb(71, 71, 71);
+  transition: all .75s cubic-bezier(.19, 1, .22, 1);
+  color: #fdfdfd;
+}
+
+.cookie-box-hide {
+  display: none;
+}
+</style>
+</body>
+</html>
