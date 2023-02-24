@@ -134,16 +134,18 @@
         </div>
         
         <div class="content mb-5">
-          <h3 id="設定開啟新分頁的連結">設定開啟新分頁的連結</h3>
+          <hr>
+<h5 id="設定開啟新分頁的連結">設定開啟新分頁的連結</h5>
 <ul>
-<li>建立Short code <code>themes/liva-hugo/layouts/shortcodes/newtabref.html</code></li>
+<li>建立Short code <code>themes/themeName/layouts/shortcodes/newtabref.html</code></li>
 </ul>
 <div class="highlight"><pre tabindex="0" style="background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-html" data-lang="html"><span style="display:flex;"><span>&lt;<span style="color:#008000;font-weight:bold">a</span> <span style="color:#b44">href</span><span style="color:#666">=</span><span style="color:#b44">&#34;{{ .Get &#34;</span><span style="color:#b44">href</span><span style="">&#34;</span> <span style="">}}&#34;</span> <span style="color:#b44">rel</span><span style="color:#666">=</span><span style="color:#b44">&#34;noopener&#34;</span> <span style="color:#b44">target</span><span style="color:#666">=</span><span style="color:#b44">&#34;_blank&#34;</span>&gt;{{ .Get &#34;title&#34; }}&lt;/<span style="color:#008000;font-weight:bold">a</span>&gt;
 </span></span></code></pre></div><ul>
 <li>使用方法 ( 記得要去除<code>&lt;&gt;</code>與<code>{{}}</code>之間的空白 )</li>
 </ul>
 <pre tabindex="0"><code>{{ &lt;newtabref href=&#34;https://yuying1724.github.io/&#34; title=&#34;Ying&#39;s Blog&#34;&gt; }}
-</code></pre><h3 id="reference">Reference</h3>
+</code></pre><p> </p>
+<h5 id="reference">Reference</h5>
 <a href='https://yidti.github.io/blog/hugo/external-link/' rel="noopener" target="_blank">Hugo - External link</a>
 
         </div>
