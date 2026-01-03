@@ -1,45 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>audio on Ying&#39;s Blog</title>
+    <title>Audio on Ying&#39;s Blog</title>
     <link>https://yuying1724.github.io/tags/audio/</link>
-    <description>Recent content in audio on Ying&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Audio on Ying&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 04 Mar 2023 04:00:00 +0800</lastBuildDate><atom:link href="https://yuying1724.github.io/tags/audio/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 04 Mar 2023 04:00:00 +0800</lastBuildDate>
+    <atom:link href="https://yuying1724.github.io/tags/audio/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【心得】勸世三姐妹 中文音樂劇</title>
       <link>https://yuying1724.github.io/blog/2023/03/dont-cry-dancing-girls/</link>
       <pubDate>Sat, 04 Mar 2023 04:00:00 +0800</pubDate>
-      
       <guid>https://yuying1724.github.io/blog/2023/03/dont-cry-dancing-girls/</guid>
-      <description>勸世三姊妹
-節目：勸世三姊妹
-劇團：躍演
-地點：衛武營戲劇院
-時間：2023年01月07日(六) 14:30
-原由 其實我是很少在觀看音樂劇，而會對音樂劇有點興趣單純是因為高中音樂課， 音樂老師會撥放經典的音樂劇的影片給我們看，例如:悲慘世界&amp;hellip;。 所以我也只對於高中看過的經典音樂劇有點印象。</description>
+      <description>&lt;p&gt;勸世三姊妹&lt;br&gt;&#xA;節目：勸世三姊妹&lt;br&gt;&#xA;劇團：躍演&lt;br&gt;&#xA;地點：衛武營戲劇院&lt;br&gt;&#xA;時間：2023年01月07日(六) 14:30&lt;/p&gt;&#xA;&lt;h4 id=&#34;原由&#34;&gt;原由&lt;/h4&gt;&#xA;&lt;p&gt;其實我是很少在觀看音樂劇，而會對音樂劇有點興趣單純是因為高中音樂課，&#xA;音樂老師會撥放經典的音樂劇的影片給我們看，例如:悲慘世界&amp;hellip;。&#xA;所以我也只對於高中看過的經典音樂劇有點印象。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>【心得】謝哲青的記憶宮殿</title>
       <link>https://yuying1724.github.io/blog/2023/02/review-memory-palace/</link>
       <pubDate>Fri, 10 Feb 2023 09:32:00 +0800</pubDate>
-      
       <guid>https://yuying1724.github.io/blog/2023/02/review-memory-palace/</guid>
-      <description>原由 因為我有看Youtube的習慣，而「下班經濟學」又是我會看的頻道，因此知道謝哲青這位主持人。 然後某次老公看到全民星攻略他答題的狀況，邀請我一起看節目。 驚覺這個人無敵強，回答問題不只講出了答案，還講了很多原由，讓我非常的驚艷。 默默地注意到這個主持人，才發現他也是個作家。可能搜尋過這個人，廣告開始跳出了 謝哲青的記憶宮殿 這堂課。
-雖然看到課程覺得不錯，我有興趣買！ 不過&amp;hellip;老實說對於我來說價格有點太貴了&amp;hellip; 起初也只是想說有點貴&amp;hellip;我好像沒有一定要買這個影音課程。 因為我通常會投資的影音課程都是專業技能培訓、語言學習或者投資理財影音課程， 讓我能實際運用在工作或者生活上面的課程。</description>
+      <description>&lt;h4 id=&#34;原由&#34;&gt;原由&lt;/h4&gt;&#xA;&lt;p&gt;因為我有看Youtube的習慣，而「下班經濟學」又是我會看的頻道，因此知道&lt;strong&gt;謝哲青&lt;/strong&gt;這位主持人。&#xA;然後某次老公看到全民星攻略他答題的狀況，邀請我一起看節目。&#xA;驚覺這個人無敵強，回答問題不只講出了答案，還講了很多原由，讓我非常的驚艷。&#xA;默默地注意到這個主持人，才發現他也是個作家。可能搜尋過這個人，廣告開始跳出了 &lt;a href=&#39;https://www.pressplay.cc/project/724D0B2E847CCA7BB8618C1944EFCE6D/about&#39; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;謝哲青的記憶宮殿&lt;/a&gt;  這堂課。&lt;/p&gt;&#xA;&lt;p&gt;雖然看到課程覺得不錯，我有興趣買！&#xA;不過&amp;hellip;老實說對於我來說價格有點太貴了&amp;hellip;&#xA;起初也只是想說有點貴&amp;hellip;我好像沒有一定要買這個影音課程。&#xA;因為我通常會投資的影音課程都是專業技能培訓、語言學習或者投資理財影音課程，&#xA;讓我能實際運用在工作或者生活上面的課程。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>【心得】Github 免費架站術！輕鬆打造個人品牌</title>
       <link>https://yuying1724.github.io/blog/2023/02/review-github-hugo-blog/</link>
       <pubDate>Mon, 06 Feb 2023 10:07:47 +0800</pubDate>
-      
       <guid>https://yuying1724.github.io/blog/2023/02/review-github-hugo-blog/</guid>
-      <description>契機 曾經喜歡透過部落格來紀錄和分享生活中大小事， 但經由 無名小站、痞客邦、Google Blogger 來紀錄生活與學習筆記， 但因為時代的演變，很多的某些平台不見了！
-然而剛好因為想要加強自己的能力，購買了Java 工程師必備！Spring Boot 零基礎入門 的課程。 然後看到老師也有開 Github 免費架站術！輕鬆打造個人品牌 課程。</description>
+      <description>&lt;h4 id=&#34;契機&#34;&gt;契機&lt;/h4&gt;&#xA;&lt;p&gt;曾經喜歡透過部落格來紀錄和分享生活中大小事，&#xA;但經由 無名小站、痞客邦、Google Blogger 來紀錄生活與學習筆記，&#xA;但因為時代的演變，很多的某些平台不見了！&lt;/p&gt;&#xA;&lt;p&gt;然而剛好因為想要加強自己的能力，購買了&lt;a href=&#39;https://hahow.in/courses/5fe22e7fe810e10fc483dd78/main&#39; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Java 工程師必備！Spring Boot 零基礎入門&lt;/a&gt; 的課程。&#xA;然後看到老師也有開 &lt;a href=&#39;https://hahow.in/courses/5de8fec16117240026540b9c/mai&#39; rel=&#34;noopener&#34; target=&#34;_blank&#34;&gt;Github 免費架站術！輕鬆打造個人品牌&lt;/a&gt; 課程。&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

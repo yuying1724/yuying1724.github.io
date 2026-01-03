@@ -1,80 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>note on Ying&#39;s Blog</title>
+    <title>Note on Ying&#39;s Blog</title>
     <link>https://yuying1724.github.io/tags/note/</link>
-    <description>Recent content in note on Ying&#39;s Blog</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Note on Ying&#39;s Blog</description>
+    <generator>Hugo</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Thu, 23 Feb 2023 22:00:00 +0800</lastBuildDate><atom:link href="https://yuying1724.github.io/tags/note/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 23 Feb 2023 22:00:00 +0800</lastBuildDate>
+    <atom:link href="https://yuying1724.github.io/tags/note/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>【筆記】Hugo 文字改變顏色</title>
       <link>https://yuying1724.github.io/blog/2023/02/note-hugo-font-color/</link>
       <pubDate>Thu, 23 Feb 2023 22:00:00 +0800</pubDate>
-      
       <guid>https://yuying1724.github.io/blog/2023/02/note-hugo-font-color/</guid>
-      <description>設定 建立Short code themes/themeName/layouts/shortcodes/setColor.html ├── layouts| ├── shortcodes| | └── setColor.</description>
+      <description>&lt;hr&gt;&#xA;&lt;h5 id=&#34;設定&#34;&gt;設定&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;建立Short code &lt;code&gt;themes/themeName/layouts/shortcodes/setColor.html&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;├── layouts&#xD;&#xA;|   ├── shortcodes&#xD;&#xA;|   |   └── setColor.html&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;ul&gt;&#xA;&lt;li&gt;&lt;code&gt;setColor.html&lt;/code&gt; 的內容&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{ $color := default &amp;#34;blue&amp;#34; (.Get &amp;#34;color&amp;#34;) }}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#008000;font-weight:bold&#34;&gt;span&lt;/span&gt; &lt;span style=&#34;color:#b44&#34;&gt;style&lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#b44&#34;&gt;&amp;#39;color: {{ $color }}&amp;#39;&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;    {{ .Inner }}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;/&lt;span style=&#34;color:#008000;font-weight:bold&#34;&gt;span&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;使用方法 ( 記得要去除&lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt;與&lt;code&gt;{{}}&lt;/code&gt;之間的空白 )&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{ &amp;lt;&lt;span style=&#34;color:#008000;font-weight:bold&#34;&gt;setColor&lt;/span&gt; &lt;span style=&#34;color:#b44&#34;&gt;color&lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#b44&#34;&gt;&amp;#34;red&amp;#34;&lt;/span&gt;&amp;gt; }} 有給 color，所以字的顏色是 red {{ &amp;lt;/&lt;span style=&#34;color:#008000;font-weight:bold&#34;&gt;setColor&lt;/span&gt;&amp;gt; }}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;{{ &amp;lt;&lt;span style=&#34;color:#008000;font-weight:bold&#34;&gt;setColor&lt;/span&gt;&amp;gt; }} 沒給 color，所以字的顏色是 blue {{ &amp;lt;/&lt;span style=&#34;color:#008000;font-weight:bold&#34;&gt;setColor&lt;/span&gt;&amp;gt; }}&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt; &lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>【筆記】java.lang.unsupportedoperationexception: null 錯誤</title>
       <link>https://yuying1724.github.io/blog/2023/02/note-java-funsupportedoperationexception/</link>
       <pubDate>Thu, 23 Feb 2023 20:00:00 +0800</pubDate>
-      
       <guid>https://yuying1724.github.io/blog/2023/02/note-java-funsupportedoperationexception/</guid>
-      <description>當使用 Arrays.asList(T... a) 產生 List物件， 而當你在呼叫List的add()或 remove()新增或刪除元素時，會發生java.</description>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;當使用 &lt;code&gt;Arrays.asList(T... a)&lt;/code&gt; 產生 &#xD;&#xA;&#xD;&#xA;&lt;span style=&#39;color: blue&#39;&gt;&#xD;&#xA;    List&#xD;&#xA;&lt;/span&gt; 物件，&#xA;而當你在呼叫&#xD;&#xA;&#xD;&#xA;&lt;span style=&#39;color: blue&#39;&gt;&#xD;&#xA;    List&#xD;&#xA;&lt;/span&gt;的&#xD;&#xA;&#xD;&#xA;&lt;span style=&#39;color: red&#39;&gt;&#xD;&#xA;    add()&#xD;&#xA;&lt;/span&gt;或&#xA;&#xD;&#xA;&#xD;&#xA;&lt;span style=&#39;color: red&#39;&gt;&#xD;&#xA;    remove()&#xD;&#xA;&lt;/span&gt;新增或刪除元素時，會發生&lt;code&gt;java.lang.UnsupportedOperationException&lt;/code&gt;錯誤。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>【筆記】謝哲青的記憶宮殿_哲青閱讀法</title>
       <link>https://yuying1724.github.io/blog/2023/02/review-memory-palace-2-1/</link>
       <pubDate>Sun, 12 Feb 2023 14:30:00 +0800</pubDate>
-      
       <guid>https://yuying1724.github.io/blog/2023/02/review-memory-palace-2-1/</guid>
-      <description>我們每一個人，若不是經驗、知識、讀過的書本的總和，還會是誰? 每一個生命都是一本百科全書，一間圖書館。
-伊塔羅 卡爾維諾 Italo Calvino
-終其一生我們所閱讀過的所有的東西， 都是我們能夠領略或預測所接觸世界的基礎。 閱讀是我們理解世界一個重要的捷徑。</description>
+      <description>&lt;hr&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;我們每一個人，若不是經驗、知識、讀過的書本的總和，還會是誰?&#xA;每一個生命都是一本百科全書，一間圖書館。&lt;/p&gt;&#xA;&lt;p&gt;伊塔羅 卡爾維諾 Italo Calvino&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;終其一生我們所閱讀過的所有的東西，&#xA;都是我們能夠領略或預測所接觸世界的基礎。&#xA;閱讀是我們理解世界一個重要的捷徑。&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;h4 id=&#34;閱讀的目的性&#34;&gt;閱讀的目的性&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h5 id=&#34;為資訊而讀&#34;&gt;為「資訊」而讀&lt;/h5&gt;&#xA;&lt;p&gt;為了某特定的問題或動機，需要尋求解答。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>【筆記】謝哲青的記憶宮殿_專注力</title>
       <link>https://yuying1724.github.io/blog/2023/02/review-memory-palace-6-2/</link>
       <pubDate>Sun, 12 Feb 2023 14:30:00 +0800</pubDate>
-      
       <guid>https://yuying1724.github.io/blog/2023/02/review-memory-palace-6-2/</guid>
-      <description>專注力，心理學家認為人腦的專注力並非像是對空間的感知力一樣是與生俱來的， 而是必須要透過有意識的學習，才能開發完成。
-如果一般人沒有經過特意的練習，那自我調節的能力還是會處於原始的狀態， 思想、行動與習慣很容易大幅度的擺盪，讓我們的新制運作變得衝動、焦躁跟混亂。
-專注力是可以培養的！讓我們可以有條有理的將事情徹底的執行。
-專注力 = 堅定不移的意志力 【鍛鍊專注力的三個方法】 方法1 - 建立專注場域 方法2 - 細化目標，拆解任務 將目標切分為實際可執行的最小單位 例如: 專注15分鐘 =&amp;gt; 休息5分鐘 =&amp;gt; 專注15分鐘 =&amp;gt; 休息5分鐘 =&amp;gt; 專注15分鐘 休息最多不要超過7分鐘。</description>
+      <description>&lt;hr&gt;&#xA;&lt;p&gt;專注力，心理學家認為人腦的專注力&lt;strong&gt;並非&lt;/strong&gt;像是對空間的感知力一樣是與生俱來的，&#xA;而是必須要透過有意識的學習，才能開發完成。&lt;/p&gt;&#xA;&lt;p&gt;如果一般人沒有經過特意的練習，那自我調節的能力還是會處於原始的狀態，&#xA;思想、行動與習慣很容易大幅度的擺盪，讓我們的新制運作變得衝動、焦躁跟混亂。&lt;/p&gt;&#xA;&lt;p&gt;專注力是可以培養的！讓我們可以有條有理的將事情徹底的執行。&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;h4 id=&#34;專注力--堅定不移的意志力&#34;&gt;專注力 = 堅定不移的意志力&lt;/h4&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;h4 id=&#34;鍛鍊專注力的三個方法&#34;&gt;【鍛鍊專注力的三個方法】&lt;/h4&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&#xA;&lt;h5 id=&#34;方法1---建立專注場域&#34;&gt;方法1 - 建立專注場域&lt;/h5&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&#xA;&lt;h5 id=&#34;方法2---細化目標拆解任務&#34;&gt;方法2 - 細化目標，拆解任務&lt;/h5&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;&#xA;&lt;p&gt;&lt;strong&gt;將目標切分為實際可執行的最小單位&lt;/strong&gt;&#xA;例如:&#xA;專注15分鐘 =&amp;gt; 休息5分鐘 =&amp;gt; 專注15分鐘 =&amp;gt; 休息5分鐘 =&amp;gt; 專注15分鐘&#xA;休息最多不要超過7分鐘。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>【筆記】謝哲青的記憶宮殿_記憶的斷捨離</title>
       <link>https://yuying1724.github.io/blog/2023/02/review-memory-palace-6-1/</link>
       <pubDate>Sun, 12 Feb 2023 14:30:00 +0800</pubDate>
-      
       <guid>https://yuying1724.github.io/blog/2023/02/review-memory-palace-6-1/</guid>
-      <description>斷-斷絕不需要的 捨-捨去多餘的 離-脫離執著 如果要用一個字表達『斷捨離』的本質，那就『出』。 不是讓人苦澀的『丟棄』，也不是故作灑脫的『放手』， 只是簡單的，中性的，自然而然的『清出』
-日本斷捨離女王 山下英子小姐 記憶的斷捨離 = 有意識地忘記 STEP.</description>
+      <description>&lt;hr&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;斷-斷絕不需要的&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;捨-捨去多餘的&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;離-脫離執著&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;如果要用一個字表達『斷捨離』的本質，那就『出』。&#xA;不是讓人苦澀的『丟棄』，也不是故作灑脫的『放手』，&#xA;只是簡單的，中性的，自然而然的『清出』&lt;/p&gt;&#xA;&lt;p&gt;日本斷捨離女王 山下英子小姐&#xA; &lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h3 id=&#34;記憶的斷捨離--有意識地忘記&#34;&gt;記憶的斷捨離 = 有意識地忘記&lt;/h3&gt;&#xA;&lt;h4 id=&#34;step1-簡化&#34;&gt;STEP.1 簡化&lt;/h4&gt;&#xA;&lt;p&gt;將資訊與知識去蕪存菁，對龐大的內容進行解構。&#xA;可用最精簡的線條、圖像或是用最精簡的一句話，用一個關鍵的字詞，&#xA;將資訊或者知識的重點提煉出來，摘要並歸納成自己看得懂的概念、提示或筆記，&#xA;暫時忘記繁瑣的細節，能夠釋放腦中的記憶體容量，同時又能強化重點的骨幹，&#xA;並且達到強化記憶的效果。&lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>【筆記】Java Field 相關</title>
       <link>https://yuying1724.github.io/blog/2023/02/note-java-field-related/</link>
       <pubDate>Thu, 09 Feb 2023 16:04:08 +0800</pubDate>
-      
       <guid>https://yuying1724.github.io/blog/2023/02/note-java-field-related/</guid>
-      <description>取得object欄位名稱 /** * 取得object欄位名稱 * @param clz * @return */ public List&amp;lt;String&amp;gt; getFieldNameList(Object clz) { List&amp;lt;String&amp;gt; result = Lists.</description>
+      <description>&lt;hr&gt;&#xA;&lt;h4 id=&#34;取得object欄位名稱&#34;&gt;取得object欄位名稱&lt;/h4&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-java&#34; data-lang=&#34;java&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#080;font-style:italic&#34;&gt;/**&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#080;font-style:italic&#34;&gt; * 取得object欄位名稱&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#080;font-style:italic&#34;&gt; * @param clz&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#080;font-style:italic&#34;&gt; * @return&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#080;font-style:italic&#34;&gt; */&lt;/span&gt;&lt;span style=&#34;color:#bbb&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#bbb&#34;&gt;&lt;/span&gt;&lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;public&lt;/span&gt;&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;List&lt;span style=&#34;color:#666&#34;&gt;&amp;lt;&lt;/span&gt;String&lt;span style=&#34;color:#666&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#00a000&#34;&gt;getFieldNameList&lt;/span&gt;(Object&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;clz)&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;{&lt;span style=&#34;color:#bbb&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#bbb&#34;&gt;&#x9;&lt;/span&gt;List&lt;span style=&#34;color:#666&#34;&gt;&amp;lt;&lt;/span&gt;String&lt;span style=&#34;color:#666&#34;&gt;&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;result&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;Lists.&lt;span style=&#34;color:#b44&#34;&gt;newArrayList&lt;/span&gt;();&lt;span style=&#34;color:#bbb&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#bbb&#34;&gt;&#x9;&lt;/span&gt;Field&lt;span style=&#34;color:#666&#34;&gt;[]&lt;/span&gt;&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;fields&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;clz.&lt;span style=&#34;color:#b44&#34;&gt;getClass&lt;/span&gt;().&lt;span style=&#34;color:#b44&#34;&gt;getDeclaredFields&lt;/span&gt;();&lt;span style=&#34;color:#bbb&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#bbb&#34;&gt;&#x9;&lt;/span&gt;result&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;Arrays.&lt;span style=&#34;color:#b44&#34;&gt;stream&lt;/span&gt;(fields).&lt;span style=&#34;color:#b44&#34;&gt;map&lt;/span&gt;(item&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;item.&lt;span style=&#34;color:#b44&#34;&gt;getName&lt;/span&gt;()).&lt;span style=&#34;color:#b44&#34;&gt;collect&lt;/span&gt;(Collectors.&lt;span style=&#34;color:#b44&#34;&gt;toList&lt;/span&gt;());&lt;span style=&#34;color:#bbb&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#bbb&#34;&gt;&#x9;&lt;/span&gt;&lt;span style=&#34;color:#a2f;font-weight:bold&#34;&gt;return&lt;/span&gt;&lt;span style=&#34;color:#bbb&#34;&gt; &lt;/span&gt;result;&lt;span style=&#34;color:#bbb&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&lt;span style=&#34;color:#bbb&#34;&gt;&lt;/span&gt;}&lt;span style=&#34;color:#bbb&#34;&gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt; &lt;/p&gt;</description>
     </item>
-    
     <item>
       <title>【筆記】Hugo 開啟新分頁的連結設定</title>
       <link>https://yuying1724.github.io/blog/2023/02/note-hugo-external-link/</link>
       <pubDate>Wed, 08 Feb 2023 20:07:47 +0800</pubDate>
-      
       <guid>https://yuying1724.github.io/blog/2023/02/note-hugo-external-link/</guid>
-      <description>設定開啟新分頁的連結 建立Short code themes/themeName/layouts/shortcodes/newtabref.html &amp;lt;a href=&amp;#34;{{ .Get &amp;#34;href&amp;#34; }}&amp;#34; rel=&amp;#34;noopener&amp;#34; target=&amp;#34;_blank&amp;#34;&amp;gt;{{ .</description>
+      <description>&lt;hr&gt;&#xA;&lt;h5 id=&#34;設定開啟新分頁的連結&#34;&gt;設定開啟新分頁的連結&lt;/h5&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;建立Short code &lt;code&gt;themes/themeName/layouts/shortcodes/newtabref.html&lt;/code&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;background-color:#f8f8f8;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-html&#34; data-lang=&#34;html&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;&amp;lt;&lt;span style=&#34;color:#008000;font-weight:bold&#34;&gt;a&lt;/span&gt; &lt;span style=&#34;color:#b44&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#b44&#34;&gt;&amp;#34;{{ .Get &amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#b44&#34;&gt;href&lt;/span&gt;&lt;span style=&#34;&#34;&gt;&amp;#34;&lt;/span&gt; &lt;span style=&#34;&#34;&gt;}}&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#b44&#34;&gt;rel&lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#b44&#34;&gt;&amp;#34;noopener&amp;#34;&lt;/span&gt; &lt;span style=&#34;color:#b44&#34;&gt;target&lt;/span&gt;&lt;span style=&#34;color:#666&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#b44&#34;&gt;&amp;#34;_blank&amp;#34;&lt;/span&gt;&amp;gt;{{ .Get &amp;#34;title&amp;#34; }}&amp;lt;/&lt;span style=&#34;color:#008000;font-weight:bold&#34;&gt;a&lt;/span&gt;&amp;gt;&#xA;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;ul&gt;&#xA;&lt;li&gt;使用方法 ( 記得要去除&lt;code&gt;&amp;lt;&amp;gt;&lt;/code&gt;與&lt;code&gt;{{}}&lt;/code&gt;之間的空白 )&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;{{ &amp;lt;newtabref href=&amp;#34;https://yuying1724.github.io/&amp;#34; title=&amp;#34;Ying&amp;#39;s Blog&amp;#34;&amp;gt; }}&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt; &lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>
